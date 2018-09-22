@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+.wrapper {
+    background-image: url(../images/netflix3.jpg),linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7));
+    background-blend-mode: overlay;
+    width: 100%;
+    height: 600px;
+    
+}
+
+.wrapper h1 {
+    color: red;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 50px;
+    
+    
+}
+.wrapper button {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: red;
+    border: none;
+    float: right;
+    margin: 20px;
+    padding-bottom: 0px;
+    
+
+}
+.wrapper h1.see {
+    color: #fff;
+    font-size: 90px;
+    font-family: sans-serif;
+    margin-top: 150px;
+ 
+    
+}
+.wrapper p.watch {
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+}
